@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/Italo-Castro/seidor/assets/72866245/262ab4ce-e468-4a44-8000-04cb6e937ae5" width="400" alt="Seidor Logo"></p>
+<p align="center"><img src="https://scontent.fplu19-1.fna.fbcdn.net/v/t39.30808-6/393209613_962888202029977_4648674819764940418_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=f57Qr7359N8AX86_p-J&_nc_oc=AQlkmmjC1Zd36HavL9IhSxLr-uhe2vZkKzzGzpWYy-8GfeCQHXMFIAtXuUi-QpUUYRHFeaOO8DytoeVet_nm85G-&_nc_ht=scontent.fplu19-1.fna&oh=00_AfAxjQNBd9eqIpnrxh0QnBfUsbrkK7wTgtKZBnhA846CxQ&oe=65927A28" width="400" alt="Seidor Logo"></p>
 
 ## DESAFIO Backend - TTP - Teste Técnico Prático- Seidor
 
