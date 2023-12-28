@@ -1,7 +1,6 @@
 const Driver = require('../models/Driver')
 const BaseService = require('../services/BaseService')
 const DriverService = require('../services/DriverService')
-const { handleNoResultById } = require('../middlewares')
 const { validationResult } = require('express-validator')
 
 exports.driverGetAll = async (req, res, next) => {
@@ -64,7 +63,7 @@ exports.driverCreate = async (req, res, next) => {
         if (!validationResult(req).isEmpty()) {
             return res.status(400).json({
                 status: 400,
-                message: errors.array()
+                message: validationResult(req).array()
             });
         }
         

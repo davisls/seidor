@@ -1,5 +1,4 @@
 const VehicleUtilization = require('../models/VehicleUtilization')
-const { handleNoResultById } = require('../middlewares');
 const VehicleUtilizationService = require('../services/VehicleUtilizationService')
 const BaseService = require('../services/BaseService')
 const { validationResult } = require('express-validator')
@@ -47,7 +46,7 @@ exports.utilizationCreate = async (req, res, next) => {
   if (!validationResult(req).isEmpty()) {
     return res.status(400).json({
         status: 400,
-        message: errors.array()
+        message: validationResult(req).array()
     });
   }
 
