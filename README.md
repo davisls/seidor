@@ -21,6 +21,13 @@ Vou listar aqui algumas tecnologias que gostaria de ter utilizado, algumas que f
 - Jobs e Filas (Mensagerias), apesar de serem ferramentas que eu gosto muito e que eu acredito que poderiam ter me
 ajudado a mostrar um pouco mais dos meus conhecimentos em Backend, não foi pedido e acredito que só implicaria em mais complexidade no sistema.
 
+## Observações Regras de Negócio
+
+- Não foi pedido a opção de deletar uma utilização de veículo, por isso não foi adicionado.
+- Não foi especificado como a DataInicial e DataFinal da utilzação seria preenchida, por isso eu deixei para cada uma delas serem preenchidas com o momento atual da operação, ou seja, na criação preenche a dataInicial e na finalização preenche a dataFinal programaticamente.
+- Como o motorista só póssui Nome como chave deixei ela como identificador único
+- A placa dos Veiculo necessitam atender o padrão Mercosul AAA0A00
+
 ## Principais desafios
 
 Acredito que o maior desafio para mim era que tinha muuuito tempo que eu não desenvolvia uma aplicação com node puro. Então para eu lembrar como funcionava tudo levou um tempinho, fora isso também tinha um tempo que não usava mongo, mas ele ainda estava mais fresco na memória do que o node puro.
