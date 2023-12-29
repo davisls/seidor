@@ -15,14 +15,14 @@ const addEndDate = data => {
 
 exports.getAll = async () => {
   try {
-    return VehicleUtilization.find().populate('vehicle').populate('driver')
+    return VehicleUtilization.find().populate('vehicle', '-_id -onUtilization').populate('driver', '-_id -onUtilization')
   } catch (e) {
     throw Error(e.message)
   }
 }
 exports.getById = async (id) => {
   try {
-    return VehicleUtilization.findById(id).populate('vehicle').populate('driver')
+    return VehicleUtilization.findById(id).populate('vehicle', '-_id -onUtilization').populate('driver', '-_id -onUtilization')
   } catch (e) {
     throw Error(e.message)
   }

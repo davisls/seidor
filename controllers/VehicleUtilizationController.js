@@ -21,7 +21,7 @@ exports.utilizationGetAll = async (req, res, next) => {
 
 exports.utilizationGetById = async (req, res, next) => {
   try {
-    const utilization = await BaseService.getById(VehicleUtilization, req.params.id)
+    const utilization = await VehicleUtilizationService.getById(req.params.id)
     if (!utilization) {
       return res.status(400).json({
         status: 400,
